@@ -39,7 +39,6 @@
 
 .generate_button{
     grid-column: 2;
-    width: 100%;
     height: 3rem;
     border: none;
     background: #d6ac3a;
@@ -57,17 +56,31 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 3rem;
+    gap: 1rem;
     max-width: 80rem;
 }
 
 .generated_content{
+    padding: 1rem;
     display: flex;
+    max-width: 50rem;
     flex-direction: column;
     color: #fff;
-    gap: 3rem;
+    gap: 2rem;
 }
 
-.tile_content_headline{
-    font-size: 2.5rem;
+.tile_headline{
+    color: #d6ac3a;
+    text-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+}
+
+.item_label{
+    color: #b3b3b3;
+}
+
+.content{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
 }

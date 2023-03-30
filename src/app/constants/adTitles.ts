@@ -1,64 +1,80 @@
-import { AdTitleType } from "../hooks/generateTitles/models";
+import { carTitleType } from "../hooks/parseTitle/models";
 
-export const ConstTitles: AdTitleType[] = [
+export const ConstTitles: carTitleType[] = [
   {
     id: 1,
-    description: "{vehicleName} Comprar",
+    title: "{vehicleName} Comprar",
   },
   {
     id: 2,
-    description: "{vehicleName} Preço",
+    title: "{vehicleName} Preço",
   },
   {
     id: 3,
-    description: "{vehicleName} Valor",
+    title: "{vehicleName} Valor",
   },
   {
     id: 4,
-    description: "Adquira seu {vehicleName} Conosco!",
+    title: "Adquira seu {vehicleName} Conosco!",
   },
   {
     id: 5,
-    description: "Parcelamos em até 24x",
+    title: "Parcelamos em até 24x",
   },
   {
     id: 6,
-    description: "Adquira seu veículo conosco",
+    title: "Adquira seu veículo conosco",
   },
   {
     id: 7,
-    description: "Garantia de 2 anos",
+    title: "Garantia de 2 anos",
   },
   {
     id: 8,
-    description: "Adquira seu Seminovo conosco",
+    title: "Adquira seu Seminovo conosco",
   },
   {
     id: 9,
-    description: "Ligue agora",
+    title: "Ligue agora",
   },
   {
     id: 10,
-    description: "Peça já o seu",
+    title: "Peça já o seu",
   },
   {
     id: 11,
-    description: "Fazemos Financiamento",
+    title: "Fazemos Financiamento",
   },
   {
     id: 12,
-    description: "Financiamos em até 60x",
+    title: "Financiamos em até 60x",
   },
   {
     id: 13,
-    description: "Realize seu sonho conosco",
+    title: "Realize seu sonho conosco",
   },
   {
     id: 14,
-    description: "Adquira agora",
+    title: "Adquira agora",
   },
   {
     id: 15,
-    description: "Saiba mais",
+    title: "Parcelamos a entrada",
+  },
+  {
+    id: 16,
+    title: "Confira agora",
+  },
+  {
+    id: 17,
+    title: "Preço {vehicleName}",
+  },
+  {
+    id: 18,
+    title: "Valor do {vehicleName}",
+  },
+  {
+    id: 19,
+    title: "Comprar {vehicleName}",
   },
 ];
